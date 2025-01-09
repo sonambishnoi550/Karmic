@@ -6,3 +6,6 @@
 body{
     font-family: 'Space Grotesk',sans-serif;
 }
+ .bg-img {
+     background-image: url("../public/assets/images/png/Home-bg.png");
+ }

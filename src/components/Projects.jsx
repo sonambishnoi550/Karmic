@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CustomHeading from '../common/CustomHeading';
 const Projects = () => {
   return (
-      <div style={{ backgroundImage: `url(./assets/images/png/project-bg.png)` }} className='bg-cover bg-center bg-no-repeat bg-black xl:h-[902px] pt-[99px] min-h-screen' >
+      <div style={{ backgroundImage: `url(./assets/images/png/project-bg.png)` }} className='bg-cover bg-center bg-no-repea xl:h-[902px] pt-[99px] min-h-screen pb-[160px]' >
           <div className="container">
               <img className=' mx-auto max-w-[344px] lg:mr-[21.7rem] mb-1' src="./assets/images/svg/project-line1.svg" alt="line" />
               <CustomHeading text={'Projects'}

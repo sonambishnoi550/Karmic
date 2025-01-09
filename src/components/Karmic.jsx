@@ -2,11 +2,10 @@ import React from 'react'
 import CustomHeading from '../common/CustomHeading'
 const Karmic = () => {
   return (
-      <div className='bg-black pb-[156px]'>
+      <div className=' pb-[156px]'>
           <div className="container">
               <img className='-mt-1 mx-auto max-w-[344px] mr-[21.7rem] mb-1' src="./assets/images/svg/karmic.svg" alt="line" />
               <CustomHeading text={'Who is karmic?'}
-     
               />
               <img className=' mx-auto max-w-[344px] -mt-2 lg:ml-[21.7rem]' src="./assets/images/svg/karmic.svg" alt="line" />
               <p className='text-base max-w-[532px] mx-auto text-center leading-custom-xl pb-[2px] font-normal text-white pt-2'>We are builders, innovaters, and believers.</p>
