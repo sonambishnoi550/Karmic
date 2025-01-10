@@ -25,8 +25,7 @@ const Projects = () => {
                   </div>
                   <button className="mt-14 px-8 py-3 border border-black hover:text-white flex justify-center mx-auto items-center text-black font-sunflower hover:bg-black font-medium text-base leading-5 rounded-full transition-all duration-500">
                       View All
-                  </button>
-                
+                  </button>         
           </div>
           </div>
     </div>
