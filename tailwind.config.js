@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         "light-gray": '#b3b2b6',
         "dark-black": "#01000B",
+        'gray': "#3B3B3B"
 
       },
       fontFamily: {
@@ -34,11 +35,10 @@ module.exports = {
         'custom-xl': '150%',
 
       },
+
       backgroundImage: {
-        "custom-gradient": "linear-gradient(180deg, rgba(59, 40, 246, 0.22) 0%, rgba(59, 40, 246, 0) 100%)",
-      },
-      borderImage: {
-        gradient: "linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%)",
+        'hero-layer': "url('/public/assets/images/png/hero-bg.png')",
+      
       },
     },
   },

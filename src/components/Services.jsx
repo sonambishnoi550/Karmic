@@ -6,17 +6,11 @@ const Services = () => {
     return (
         <div>
             <div className='container relative'>
-                <div className="absolute lg:top-[-3%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%]">
-                    <img
-                        src="./assets/images/svg/karmic.svg"
-                        alt="line"
-                        className="md:w-[344px] w-[250px]"
-                    />
-                </div>
+                <img className='-mt-1 mx-auto max-w-[344px] mr-[21.7rem] mb-1' src="./assets/images/svg/karmic.svg" alt="line" />
                 <CustomHeading
                     text={'Services'}
-                    classStyle={'lg:!pb-12 md:!pb-10 !pb-8'}
                 />
+                <img className=' mx-auto max-w-[344px] -mt-2 lg:ml-[21.7rem]' src="./assets/images/svg/karmic.svg" alt="line" />
                 <div className='flex flex-row flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8'>
                     {SERVICES_DATA.map((testimonial, index) => (
                         <div key={index} className='lg:w-[33.33%] sm:w-[50%] w-full px-[10.5px] lg:mb-10 sm:mb-6 mb-5 relative group'>

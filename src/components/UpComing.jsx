@@ -8,21 +8,13 @@ const Upcoming = () => {
 
     return (
         <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[136px] md:pb-20 pb-16">
-            <div className="container relative">
-                <div className="absolute lg:top-[-4%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%]">
-                    <img
-                        src="./assets/images/svg/karmic.svg"
-                        alt="line"
-                        className="md:w-[344px] w-[250px]"
-                    />
-                    
-                </div>
+            <div className="container ">
+                <img className='-mt-1 mx-auto max-w-[344px] mr-[21.7rem] mb-1' src="./assets/images/svg/karmic.svg" alt="line" />
                 <CustomHeading
                     text={'Upcoming Projects'}
-                    classStyle={'lg:!pb-12 md:!pb-10 !pb-8'}
                 />
-                
-                <div className="flex max-lg:flex-wrap justify-center md:gap-[29px] gap-5">
+                <img className=' mx-auto max-w-[344px] -mt-2 lg:ml-[21.7rem]' src="./assets/images/svg/karmic.svg" alt="line" />
+                <div className="flex max-lg:flex-wrap justify-center md:gap-[29px] gap-5 pt-10">
                     {UPCOMING_DATA.map((project) => (
                         <div
                             key={project.id}
