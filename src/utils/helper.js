@@ -93,3 +93,27 @@ export const NAV_DATA_LINK = [
     { data: 'Projects', href: '#projects' },
     { data: 'About', href: '#about' },
 ];
+export const VALUES_DATA = [
+    {
+        circle: "/assets/images/png/white-circle.png",
+        image: "/assets/images/svg/w3.svg",
+        title: "W3 ",
+        description:
+            "Not your average degens. Karmic is lead by a team of Industry professionals with extensive backgrounds in web3 and web2. We are actively involved in all that we do. Boots on the ground. We know the ins and outs of the space, because we are building it. ",
+        content: [],
+    },
+    {
+        circle: "/assets/images/png/white-circle.png",
+        image: "/assets/images/svg/blockchain.svg",
+        title: "Blockchain Agnostic ",
+        description:"Our team of seasoned developers will help you to launch your project on the network of your choosing- be it ethereum, solana, polygon, etc.."
+    },
+    {
+        circle: "/assets/images/png/white-circle.png",
+        image: "/assets/images/svg/trust.svg",
+        title: "Trust",
+        description:
+            "Trustless and results driven development backed by a portfolio of success. You're the captain of the ship, and the keys are always in your hands.",
+        content: [],
+    },
+];

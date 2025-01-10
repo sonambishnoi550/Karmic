@@ -5,6 +5,7 @@ import Services from './components/Services'
 import Upcoming from './components/UpComing'
 import Hero from './components/Hero'
 import Header from './components/Header'
+import Values from './components/Values'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Services />
       <Projects />
       <Karmic />
+      {/* <Values/> */}
 
     </>
   )
