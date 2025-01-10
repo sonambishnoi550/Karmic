@@ -8,14 +8,14 @@ const Upcoming = () => {
 
 
     return (
-        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[136px] md:pb-20 pb-16">
+        <div className="lg:pt-20  lg:pb-[136px] md:pb-20 pb-16">
             <div className="container ">
-                <img className='-mt-1 mx-auto max-w-[344px] mr-[21.7rem] mb-1' src="./assets/images/svg/karmic.svg" alt="line" />
+                <img className='-mt-1 mx-auto md:max-w-[344px] mr-[2rem] max-w-[190px] lg:mr-[21.7rem] mb-1' src="./assets/images/svg/karmic.svg" alt="line" />
                 <CustomHeading
                     text={'Upcoming Projects'}
                 />
-                <img className=' mx-auto max-w-[344px] -mt-2 lg:ml-[21.7rem]' src="./assets/images/svg/karmic.svg" alt="line" />
-                <div className="flex max-lg:flex-wrap justify-center md:gap-[29px] gap-5 pt-10">
+                <img className=' mx-auto md:max-w-[344px] max-w-[190px] -mt-2 lg:ml-[21.7rem]' src="./assets/images/svg/karmic.svg" alt="line" />
+                <div className="flex max-lg:flex-wrap justify-center xl:gap-[29px] gap-3 pt-10">
                     {UPCOMING_DATA.map((project) => (
                         <div
                             key={project.id}

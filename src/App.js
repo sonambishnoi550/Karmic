@@ -17,8 +17,8 @@ const App = () => {
       <Services />
       <Projects />
       <Karmic />
-      {/* <Values />
-<Footer/> */}
+      <Values />
+<Footer/>
 
     </>
   )
