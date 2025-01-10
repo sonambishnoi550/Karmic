@@ -29,6 +29,7 @@ module.exports = {
         "custom-3xl": '32px',
         "custom-4xl": '34px',
         "custom-5xl": '56px',
+        "custom-6xl": '64px',
       },
       lineHeight: {
         'custom-sm': '108%',
