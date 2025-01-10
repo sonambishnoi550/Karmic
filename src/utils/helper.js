@@ -5,13 +5,32 @@ export const SERVICES_DATA = [
         title: "Smart Contract ",
         description:
             "Tailored smart contracts to fit your needs, no matter the size. No idea is too big, too small, or too degen... ",
+        content: [],
     },
     {
         circle: "/assets/images/png/white-circle.png",
         image: "./assets/images/svg/web-services.svg",
         title: "Web3 Services",
-        description:
-            "Tailored smart contracts to fit your needs, no matter the size. No idea is too big, too small, or too degen... ",
+        content: [
+            {
+                text: "Metmask integration"
+            },
+            {
+                textTwo: "NFT's"
+            },
+            {
+                textThree: "Dapps"
+            },
+            {
+                textFour: "Tokenomics"
+            },
+            {
+                textFive: "Metaverse AR/VR"
+            },
+            {
+                textSix: "SDK Gaming Integration"
+            },
+        ],
     },
     {
         circle: "/assets/images/png/white-circle.png",
@@ -19,6 +38,7 @@ export const SERVICES_DATA = [
         title: "Marketing / Media",
         description:
             "We have worked with some of the spaces most reputable figures to drive audiences.",
+        content: [],
     },
     {
         circle: "/assets/images/png/white-circle.png",
@@ -26,6 +46,7 @@ export const SERVICES_DATA = [
         title: "Consultation",
         description:
             "Have an idea but not sure where to start? Hop on a call with us and we will help you to put plans into action.",
+        content: [],
     },
     {
         circle: "/assets/images/png/white-circle.png",
@@ -33,6 +54,7 @@ export const SERVICES_DATA = [
         title: "NFT Services",
         description:
             "NFT solutions from start to finish. From Initial Concept to Secondary market listings, we will guide you every step of the way to ensure your project is a successfully and seemlessly delivered come mint day.",
+        content: [],
     },
 ];
 export const UPCOMING_DATA = [

@@ -1,6 +1,7 @@
 import React from 'react';
 import CustomHeading from '../common/CustomHeading';
 import { UPCOMING_DATA } from '../utils/helper';
+import CustomButton from '../common/CustomButton';
 
 
 const Upcoming = () => {
@@ -39,9 +40,7 @@ const Upcoming = () => {
                         </div>
                     ))}
                 </div>
-                <button className="mt-12 px-8 py-3 border flex justify-center mx-auto items-center text-white font-sunflower font-medium text-base rounded-full transition-all duration-700 ease-in-out hover:bg-gray-700">
-                    View All
-                </button>
+                <CustomButton classStyle="!text-white flex mx-auto py-3 px-8 border-white border rounded-[82px] mt-12 hover:!text-black hover:bg-white transition-all duration-500" text="View All"/>
             </div>
         </div>
     );

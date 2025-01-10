@@ -23,7 +23,7 @@ const Projects = () => {
                       <img className='max-w-[273px] max-xl:max-w-[212px] max-lg:max-w-[273px] hover:scale-110 transition-all duration-500' src="./assets/images/png/project-seven-image.png" alt="image-three" />
                       <img className='max-w-[273px] max-xl:max-w-[212px] max-lg:max-w-[273px] hover:scale-110 transition-all duration-500' src="./assets/images/png/project-eight-image.png" alt="image-four" />
                   </div>
-                  <button className="mt-14 px-8 py-3 border border-black hover:text-white flex justify-center mx-auto items-center text-black font-sunflower font-medium text-base leading-5 rounded-full hover:bg-gray-700">
+                  <button className="mt-14 px-8 py-3 border border-black hover:text-white flex justify-center mx-auto items-center text-black font-sunflower hover:bg-black font-medium text-base leading-5 rounded-full transition-all duration-500">
                       View All
                   </button>
                 
