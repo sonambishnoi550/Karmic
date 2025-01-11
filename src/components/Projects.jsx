@@ -6,12 +6,12 @@ const Projects = () => {
     return (
         <div className='bg-cover bg-center bg-no-repeat bg-white-img xl:h-[870px] pt-[150px] sm:pt-[99px] xl:pb-[160px] pb-[7rem]' id='projects'>
             <div className='container relative'>
-                <img className='-mt-1 mx-auto md:max-w-[344px] md:mr-[9rem] mr-[2rem] max-w-[190px] lg:mr-[21.7rem] mb-1' src="./assets/images/svg/project-line1.svg" alt="line" />
+                <img className='pointer-events-none -mt-1 mx-auto md:max-w-[344px] md:mr-[9rem] mr-[2rem] max-w-[190px] lg:mr-[21.7rem] mb-1' src="./assets/images/svg/project-line1.svg" alt="line" />
                 <CustomHeading
                     text={'projects'}
                     classStyle={' !text-black'}
                 />
-                <img className='-mt-1 mx-auto md:max-w-[344px] max-w-[190px] lg:ml-[21.7rem] mb-1' src="./assets/images/svg/project-line1.svg" alt="line" />
+                <img className='pointer-events-none -mt-1 mx-auto md:max-w-[344px] max-w-[190px] lg:ml-[21.7rem] mb-1' src="./assets/images/svg/project-line1.svg" alt="line" />
                 <p className='text-base max-w-[532px] mx-auto text-center leading-6 font-normal max-lg:pt-4'>Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>
 
                 <div className='flex flex-wrap pt-[22px] max-md:pt-4 justify-center'>
@@ -25,7 +25,7 @@ const Projects = () => {
                                     `}
                             >
                                 <img
-                                    className=" w-full rounded-lg"
+                                    className=" w-full rounded-lg pointer-events-none"
                                     src={obj.image}
                                     alt='projects-image'
                                 />
