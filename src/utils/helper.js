@@ -117,3 +117,45 @@ export const VALUES_DATA = [
         content: [],
     },
 ];
+export const PROJECTS_LISTS = [
+    {
+        image: "./assets/images/png/project-one-image.png",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "./assets/images/png/project-two-image.png",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "./assets/images/png/project-three-image.png",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "./assets/images/png/project-four-image.png",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "./assets/images/png/project-five-image.png",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "./assets/images/png/project-six-image.png",
+        title: 'Nubbies'
+    },
+
+
+    {
+        image: "./assets/images/png/project-seven-image.png",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "./assets/images/png/project-eight-image.png",
+        title: 'Nubbies'
+    },
+]

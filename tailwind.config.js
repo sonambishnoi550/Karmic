@@ -18,7 +18,8 @@ module.exports = {
       colors: {
         "light-gray": '#b3b2b6',
         "dark-black": "#01000B",
-        'gray': "#3B3B3B"
+        'gray': "#3B3B3B",
+        'dark-gray': "#4d4d4d",
 
       },
       fontFamily: {
@@ -39,7 +40,7 @@ module.exports = {
 
       backgroundImage: {
         'hero-layer': "url('/public/assets/images/png/hero-bg.png')",
-      
+        'white-img': "url('/public/assets/images/png/project-bg.png')",
       },
     },
   },
