@@ -34,17 +34,14 @@ const Header = () => {
             <div className="container">
                 <div className="flex justify-between items-center">
                     <a href="/">
-                        <img className='lg:max-w-[156px] max-w-[120px] pointer-events-none' src="./assets/images/png/logo.png" alt="nav-logo" />
+                        <img className='lg:max-w-[156px] max-w-[120px] pointer-events-none' src="./assets/images/png/logo.png" alt="nav-logo"/>
                     </a>
                     <div className='lg:block hidden'>
                         <div className="flex gap-8 items-center">
                             {NAV_DATA_LINK.map((obj, index) => (
-                                <a onClick={toggleMenu}
-                                    key={index}
+                                <a onClick={toggleMenu} key={index}
                                     className="font-normal hover:font-bold transition-all duration-500 text-base leading-5 text-white"
-                                    href={obj.href}
-                                >
-                                    {obj.data}
+                                    href={obj.href}> {obj.data}
                                 </a>
                             ))}
                         </div>
@@ -70,16 +67,13 @@ const Header = () => {
                         <div className='lg:hidden block'>
                             <div className='flex-col flex gap-6 items-center'>
                                 {NAV_DATA_LINK.map((obj, index) => (
-                                    <a onClick={toggleMenu}
-                                        key={index}
+                                    <a onClick={toggleMenu} key={index}
                                         className="font-normal hover:font-bold transition-all duration-500 text-base leading-5 text-white"
-                                        href={obj.href}>
-                                        {obj.data}
-                                    </a>
+                                        href={obj.href}> {obj.data} </a>
                                 ))}
                             </div>
                         </div>
-                        <a onClick={toggleMenu} href="#home"><CustomButton classStyle={'!py-[11px] !px-[25px] bg-white hover:bg-black hover:text-white border border-white  transition-all duration-500'} text={'Connect Wallet'} /></a>
+                        <a onClick={toggleMenu} href="#home"><CustomButton classStyle={'!py-[11px] !px-[25px] bg-white hover:bg-black hover:text-white border border-white transition-all duration-500'} text={'Connect Wallet'} /></a>
                     </div>
                 </div>
             </div>

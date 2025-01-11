@@ -20,7 +20,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className='lg:w-[398px] w-full flex max-lg:justify-center max-lg:items-center'>
-                        <img className='max-w-[398px] w-full pointer-events-none' src="./assets/images/png/hero-image.png" alt="hero-image" />
+                        <img className='max-w-[398px] w-full pointer-events-none' src="./assets/images/png/hero-image.png" alt="hero-image"/>
                     </div>
                     <div className='absolute bottom-[45px] left-[50%] lg:block hidden'>
                         <DownArrow />
