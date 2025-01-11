@@ -79,7 +79,7 @@ const Header = () => {
                                 ))}
                             </div>
                         </div>
-                        <a onClick={toggleMenu} href="#home"><CustomButton classStyle={'!py-[12px] !px-[25px] bg-white hover:bg-black hover:text-white border border-white  transition-all duration-500'} text={'Connect Wallet'} /></a>
+                        <a onClick={toggleMenu} href="#home"><CustomButton classStyle={'!py-[11px] !px-[25px] bg-white hover:bg-black hover:text-white border border-white  transition-all duration-500'} text={'Connect Wallet'} /></a>
                     </div>
                 </div>
             </div>

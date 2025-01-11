@@ -4,7 +4,7 @@ import { PROJECTS_DATA } from '../utils/helper'
 
 const Projects = () => {
     return (
-        <div className='bg-cover bg-center bg-no-repeat bg-white-img xl:h-[870px] pt-[150px] sm:pt-[99px] lg:pb-[160px] pb-32' id='projects'>
+        <div className='bg-cover bg-center bg-no-repeat bg-white-img xl:h-[870px] pt-[150px] sm:pt-[99px] xl:pb-[160px] pb-[7rem]' id='projects'>
             <div className='container relative'>
                 <img className='-mt-1 mx-auto md:max-w-[344px] md:mr-[9rem] mr-[2rem] max-w-[190px] lg:mr-[21.7rem] mb-1' src="./assets/images/svg/project-line1.svg" alt="line" />
                 <CustomHeading
@@ -39,7 +39,7 @@ const Projects = () => {
                     ))}
                 </div>
                 <div className='flex justify-center pt-14 max-lg:pt-10 max-md:pt-8'>
-                    <button className="px-8 py-3 border border-black flex justify-center mx-auto items-center  text-black font-sunflower font-medium text-base rounded-full transition-all duration-700 ease-in-out hover:bg-black hover:text-white">
+                    <button className="px-8 py-[9px] border max-sm:mb-4 border-black flex justify-center mx-auto items-center  text-black font-sunflower font-medium text-base rounded-full transition-all duration-700 ease-in-out hover:bg-black hover:text-white">
                         View All
                     </button>
                 </div>
