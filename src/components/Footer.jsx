@@ -15,11 +15,11 @@ const Footer = () => {
                         className="hover:scale-110 transition-all duration-300"
                         rel="noreferrer"> <img src="./assets/images/svg/twitter.svg" alt="twitter"/> </a>
                     <a href="www.facebook.com" target="_blank"
-                        className="hover:scale-110 transition-all duration-300" rel="noreferrer" >
-                        <img src="./assets/images/svg/facebook.svg" alt="facebook" /> </a>
+                        className="hover:scale-110 transition-all duration-300" rel="noreferrer">
+                        <img src="./assets/images/svg/facebook.svg" alt="facebook"/> </a>
                     <a href="https://www.youtube.com/" target="_blank"
-                        className="hover:scale-110 transition-all duration-300" rel="noreferrer" >
-                        <img src="./assets/images/svg/youtube.svg" alt="you-tube" />
+                        className="hover:scale-110 transition-all duration-300" rel="noreferrer">
+                        <img src="./assets/images/svg/youtube.svg" alt="you-tube"/>
                     </a>
                 </div>
             </div>
