@@ -2,7 +2,7 @@ import React from 'react';
 import CustomHeading from '../common/CustomHeading';
 import { UPCOMING_DATA } from '../utils/helper';
 import CustomButton from '../common/CustomButton';
-const Upcoming = () => {
+const UpComing = () => {
     return (
         <div className="lg:pt-20  xl:pb-[136px] md:pb-20 pb-16">
             <div className="container">
@@ -42,4 +42,4 @@ const Upcoming = () => {
     );
 };
 
-export default Upcoming;
+export default UpComing;
