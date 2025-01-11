@@ -42,7 +42,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-            <div className="border border-white w-full"></div>
+            <div className="!border-[0.5px] border-white w-full"></div>
             <p className="text-white opacity-70 text-center max-sm:text-sm pt-4 pb-[18px]">
                 © Karmic labs {currentYear}
             </p>
