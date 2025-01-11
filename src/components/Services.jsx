@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <div>
             <div className='container relative'>
-                <img className='-mt-1 mx-auto md:max-w-[344px] mr-[2rem] max-w-[190px] lg:mr-[21.7rem] mb-1' src="./assets/images/svg/karmic.svg" alt="line" />
+                <img className='-mt-1 mx-auto md:max-w-[344px] md:mr-[9rem] mr-[2rem] max-w-[190px] lg:mr-[21.7rem] mb-1' src="./assets/images/svg/karmic.svg" alt="line" />
                 <CustomHeading
                     text={'Services'}
                 />

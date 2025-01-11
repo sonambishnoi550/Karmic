@@ -9,8 +9,8 @@ const Upcoming = () => {
 
     return (
         <div className="lg:pt-20  lg:pb-[136px] md:pb-20 pb-16">
-            <div className="container ">
-                <img className='-mt-1 mx-auto md:max-w-[344px] mr-[2rem] max-w-[190px] lg:mr-[21.7rem] mb-1' src="./assets/images/svg/karmic.svg" alt="line" />
+            <div className="container">
+                <img className='-mt-1 mx-auto md:max-w-[344px] md:mr-[9rem] mr-[2rem] max-w-[190px] lg:mr-[21.7rem] mb-1' src="./assets/images/svg/karmic.svg" alt="line" />
                 <CustomHeading
                     text={'Upcoming Projects'}
                 />
@@ -24,7 +24,7 @@ const Upcoming = () => {
                             <img
                                 src={project.image}
                                 alt={project.title}
-                                className="pb-4"
+                                className="pb-4 xl:max-w-[231px]"
                             />
                             <div className="flex justify-between">
                                 <p className="font-sunflower font-medium text-xl leading-custom-xl text-white">

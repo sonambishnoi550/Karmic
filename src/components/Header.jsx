@@ -30,9 +30,9 @@ const Header = () => {
     }, [isMenuOpen])
 
     return (
-        <div className="sm:py-7 py-4 flex items-center lg:h-[100px] sm:h-20">
+        <div className="pt-[11px] flex items-center">
             <div className="container">
-                <div className="flex justify-between items-center lg:h-[100px] sm:h-20">
+                <div className="flex justify-between items-center">
                     <a href="/">
                         <img className='lg:max-w-[156px] max-w-[120px] pointer-events-none' src="./assets/images/png/logo.png" alt="nav-logo" />
                     </a>
@@ -79,7 +79,7 @@ const Header = () => {
                                 ))}
                             </div>
                         </div>
-                        <a onClick={toggleMenu} href="#home"><CustomButton classStyle={'!py-[12px] !px-[26px] bg-white hover:bg-black hover:text-white border border-white  transition-all duration-500'} text={'Connect Wallet'} /></a>
+                        <a onClick={toggleMenu} href="#home"><CustomButton classStyle={'!py-[12px] !px-[25px] bg-white hover:bg-black hover:text-white border border-white  transition-all duration-500'} text={'Connect Wallet'} /></a>
                     </div>
                 </div>
             </div>

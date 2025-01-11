@@ -20,6 +20,7 @@ module.exports = {
         "dark-black": "#01000B",
         'gray': "#3B3B3B",
         'dark-gray': "#4d4d4d",
+        'dusk-black': "#353535",
 
       },
       fontFamily: {
@@ -35,7 +36,7 @@ module.exports = {
       lineHeight: {
         'custom-sm': '108%',
         'custom-xl': '150%',
-
+        'custom-2xl': '180%',
       },
 
       backgroundImage: {

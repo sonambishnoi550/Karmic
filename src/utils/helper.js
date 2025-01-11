@@ -117,7 +117,7 @@ export const VALUES_DATA = [
         content: [],
     },
 ];
-export const PROJECTS_LISTS = [
+export const PROJECTS_DATA = [
     {
         image: "./assets/images/png/project-one-image.png",
         title: 'Nubbies'
