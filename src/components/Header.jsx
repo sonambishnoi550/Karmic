@@ -40,7 +40,7 @@ const Header = () => {
                         <div className="flex gap-8 items-center">
                             {NAV_DATA_LINK.map((obj, index) => (
                                 <a onClick={toggleMenu} key={index}
-                                    className="font-normal hover:font-bold transition-all duration-500 text-base leading-5 text-white"
+                                    className="font-normal hover:font-bold font-sunflower transition-all duration-500 text-base leading-5 text-white"
                                     href={obj.href}> {obj.data}
                                 </a>
                             ))}
@@ -68,7 +68,7 @@ const Header = () => {
                             <div className='flex-col flex gap-6 items-center'>
                                 {NAV_DATA_LINK.map((obj, index) => (
                                     <a onClick={toggleMenu} key={index}
-                                        className="font-normal hover:font-bold transition-all duration-500 text-base leading-5 text-white"
+                                        className="font-normal hover:font-bold transition-all duration-500 font-sunflower text-base leading-5 text-white"
                                         href={obj.href}> {obj.data} </a>
                                 ))}
                             </div>

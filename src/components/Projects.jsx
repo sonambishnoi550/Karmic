@@ -4,7 +4,7 @@ import { PROJECTS_DATA } from '../utils/helper'
 
 const Projects = () => {
     return (
-        <div className='bg-cover bg-center bg-no-repeat bg-white-img xl:h-[870px] pt-[150px] sm:pt-[99px] xl:pb-[160px] pb-[7rem]' id='projects'>
+        <div className='bg-cover bg-center bg-no-repeat max-md:bg-white md:bg-white-img xl:h-[870px] pt-12 sm:pt-[80px] xl:pb-[160px] pb-10 md:pb-[7rem]' id='projects'>
             <div className='container relative'>
                 <img className='pointer-events-none -mt-1 mx-auto md:max-w-[344px] md:mr-[9rem] mr-[2rem] max-w-[190px] lg:mr-[21.7rem] mb-1' src="./assets/images/svg/project-line1.svg" alt="line"/>
                 <CustomHeading

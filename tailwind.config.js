@@ -21,11 +21,9 @@ module.exports = {
         'gray': "#3B3B3B",
         'dark-gray': "#4d4d4d",
         'dusk-black': "#353535",
-
       },
       fontFamily: {
-        'sunflower': "'Sunflower', sans-serif",
-       
+        'sunflower': "'Sunflower', sans-serif", 
       },
       fontSize: {
         "custom-3xl": '32px',
@@ -38,7 +36,6 @@ module.exports = {
         'custom-xl': '150%',
         'custom-2xl': '180%',
       },
-
       backgroundImage: {
         'hero-layer': "url('/public/assets/images/png/hero-bg.png')",
         'white-img': "url('/public/assets/images/png/project-bg.png')",

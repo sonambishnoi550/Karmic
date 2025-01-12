@@ -57,6 +57,7 @@ export const SERVICES_DATA = [
         content: [],
     },
 ];
+
 export const UPCOMING_DATA = [
     {
         id: 1,
@@ -87,12 +88,14 @@ export const UPCOMING_DATA = [
         category: 'NFT',
     },
 ];
+
 export const NAV_DATA_LINK = [
     { data: 'Home', href: '#home' },
     { data: 'Services', href: '#services' },
     { data: 'Projects', href: '#projects' },
     { data: 'About', href: '#about' },
 ];
+
 export const VALUES_DATA = [
     {
         circle: "/assets/images/png/white-circle.png",
@@ -117,6 +120,7 @@ export const VALUES_DATA = [
         content: [],
     },
 ];
+
 export const PROJECTS_DATA = [
     {
         image: "./assets/images/png/project-one-image.png",
