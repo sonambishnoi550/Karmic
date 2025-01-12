@@ -25,7 +25,7 @@ const UpComing = () => {
                         </div>
                     ))}
                 </div>
-                <CustomButton classStyle="!text-white flex mx-auto py-3 px-[29px] border-white border rounded-[82px] md:mt-12 mt-5 hover:!text-black hover:bg-white transition-all duration-500" text="View All"/>
+                <CustomButton classStyle={'px-8 py-[11px] border max-sm:mb-4 border-white flex justify-center mx-auto items-center md:mt-12 mt-5 text-white font-sunflower font-medium text-base rounded-full transition-all duration-700 ease-in-out hover:bg-white hover:text-black'} text={'View All'} />
             </div>
         </div>
     );
