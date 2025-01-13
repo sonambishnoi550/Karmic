@@ -4,7 +4,7 @@ import CustomHeading from '../common/CustomHeading'
 
 const Services = () => {
     return (
-        <div className='max-lg:pb-8'>
+        <div id='services' className='max-lg:pb-8'>
             <div className='container relative'>
                 <img className='-mt-1 pointer-events-none mx-auto md:max-w-[344px] md:mr-[9rem] mr-[2rem] max-w-[190px] lg:mr-[21.7rem] mb-1' src="./assets/images/svg/karmic.svg" alt="line" />
                 <CustomHeading text={'Services'} />

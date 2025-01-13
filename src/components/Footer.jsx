@@ -1,26 +1,25 @@
 import React from 'react'
+import { SOCIAL_LINKS } from '../utils/helper';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <div className='xl:pt-[60px] pt-5'>
+        <div id='about' className='xl:pt-[60px] pt-5'>
             <div className="container">
                 <img src="./assets/images/png/footer-logo.png" alt="footer-logo" className='md:pb-[69px] pb-[50px] flex mx-auto md:max-w-[255px] max-w-[190px]' />
                 <div className="flex items-center justify-center gap-6 pb-4">
-                    <a href="https://www.instagram.com/" target="_blank"
-                        className="hover:scale-110 transition-all duration-300" rel="noreferrer" >
-                        <img src="./assets/images/svg/instagram.svg" alt="instagram"/></a>
-                    <a href="https://x.com/?lang=en&mx=2" target="_blank"
-                        className="hover:scale-110 transition-all duration-300"
-                        rel="noreferrer"> <img src="./assets/images/svg/twitter.svg" alt="twitter"/> </a>
-                    <a href="www.facebook.com" target="_blank"
-                        className="hover:scale-110 transition-all duration-300" rel="noreferrer">
-                        <img src="./assets/images/svg/facebook.svg" alt="facebook"/> </a>
-                    <a href="https://www.youtube.com/" target="_blank"
-                        className="hover:scale-110 transition-all duration-300" rel="noreferrer">
-                        <img src="./assets/images/svg/youtube.svg" alt="you-tube"/>
-                    </a>
+                    {SOCIAL_LINKS.map((link, index) => (
+                        <a
+                            key={index}
+                            href={link.link}
+                            target="_blank"
+                            className="hover:scale-110 transition-all duration-300"
+                            rel="noreferrer"
+                        >
+                            <img src={link.src} alt={link.alt} />
+                        </a>
+                    ))}
                 </div>
             </div>
             <div className="!border-[0.5px] border-white w-full"></div>
