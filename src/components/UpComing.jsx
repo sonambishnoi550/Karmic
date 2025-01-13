@@ -6,9 +6,10 @@ const UpComing = () => {
     return (
         <div id='upcoming project' className="lg:pt-20 xl:pb-[136px] md:pb-20 pb-16">
             <div className="container">
-                <img className='-mt-1 pointer-events-none mx-auto md:max-w-[344px] md:mr-[9rem] mr-[2rem] max-w-[190px] lg:mr-[21.7rem] mb-1' src="./assets/images/svg/karmic.svg" alt="line" />
-                <CustomHeading text={'Upcoming Projects'} />
-                <img className='pointer-events-none mx-auto md:max-w-[344px] max-w-[190px] -mt-2 lg:ml-[21.7rem]' src="./assets/images/svg/karmic.svg" alt="line" />
+                <div className='relative'>
+                    <img className='absolute mx-auto md:max-w-[344px] pointer-events-none max-w-[190px] lg:left-[33%] sm:left-[28%] left-[24%] sm:top-[-45%] top-[-31%] lg:top-[-32%]' src="./assets/images/svg/karmic.svg" alt="line" />
+                    <CustomHeading text={'Upcoming Projects '} />
+                </div>
                 <div className="flex max-lg:flex-wrap justify-center xl:gap-[29px] gap-3 md:pt-10 pt-5">
                     {UPCOMING_DATA.map((project) => (
                         <div key={project}

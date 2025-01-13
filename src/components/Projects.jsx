@@ -7,13 +7,12 @@ const Projects = () => {
     return (
         <div className='bg-cover bg-center bg-no-repeat max-lg:bg-white md:bg-white-img xl:h-[870px] pt-12 xl:pt-[80px] lg:pt-[98px] xl:pb-[120px] md:pb-16 pb-10 lg:pb-[7rem]' id='projects'>
             <div className='container relative'>
-                <img className='pointer-events-none -mt-1 mx-auto md:max-w-[344px] md:mr-[9rem] mr-[2rem] max-w-[190px] lg:mr-[16.7rem] xl:mr-[21.7rem] mb-1' src="./assets/images/svg/project-line1.svg" alt="line"/>
-                <CustomHeading
-                    text={'projects'}
-                    classStyle={' !text-black'}
-                />
-                <img className='pointer-events-none -mt-1 mx-auto md:max-w-[344px] max-w-[190px] lg:ml-[21.7rem] mb-1' src="./assets/images/svg/project-line1.svg" alt="line"/>
-                <p className='text-base max-w-[532px] mx-auto text-center leading-6 font-normal max-lg:pt-4'>Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>
+                <div className='relative'>
+                    <img className='absolute mx-auto md:max-w-[344px] pointer-events-none max-w-[190px] lg:left-[33%] sm:left-[28%] left-[24%] sm:top-[-45%] top-[-31%] lg:top-[-32%]' src="./assets/images/svg/project-line1.svg" alt="line" />
+                    <CustomHeading text={'Projects '}
+                    classStyle={`!text-black`}/>
+                </div>
+                <p className='text-base max-w-[532px] mx-auto text-center leading-6 font-normal pt-6'>Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>
 
                 <div className='flex flex-wrap pt-[22px] max-md:pt-0 justify-center'>
                     {PROJECTS_DATA.map((obj, i) => (
