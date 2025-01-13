@@ -159,9 +159,9 @@ export const PROJECTS_DATA = [
 ];
 
 export const KARMIC_IMAGES = [
-    { src: './assets/images/png/karmic-one.png', alt: 'one' },
-    { src: './assets/images/png/karmic-two.png', alt: 'two' },
-    { src: './assets/images/png/karmic-three.png', alt: 'three' },
+    { image: './assets/images/png/karmic-one.png', alt: 'one' },
+    { image: './assets/images/png/karmic-two.png', alt: 'two' },
+    { image: './assets/images/png/karmic-three.png', alt: 'three' },
 ];
 
 export const SOCIAL_LINKS = [

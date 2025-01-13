@@ -15,7 +15,7 @@ const Karmic = () => {
             <img
               key={index}
               className='max-w-[369px] max-xl:max-w-[300px] max-lg:max-w-[329px] pointer-events-none'
-              src={image.src}
+              src={image.image}
               alt={image.alt}
             />
           ))}
