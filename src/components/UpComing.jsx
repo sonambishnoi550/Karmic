@@ -11,7 +11,7 @@ const UpComing = () => {
                 <img className='pointer-events-none mx-auto md:max-w-[344px] max-w-[190px] -mt-2 lg:ml-[21.7rem]' src="./assets/images/svg/karmic.svg" alt="line" />
                 <div className="flex max-lg:flex-wrap justify-center xl:gap-[29px] gap-3 md:pt-10 pt-5">
                     {UPCOMING_DATA.map((project) => (
-                        <div key={project.id}
+                        <div key={project}
                             className="p-4 border backdrop-blur-lg bg-white/10 rounded-3xl border-gray-700" >
                             <img src={project.image} alt={project.title} className="pb-4 xl:max-w-[231px] pointer-events-none"/>
                             <div className="flex justify-between">

@@ -17,7 +17,7 @@ const Footer = () => {
                             className="hover:scale-110 transition-all duration-300"
                             rel="noreferrer"
                         >
-                            <img src={link.src} alt={link.alt} />
+                            <img src={link.image} alt={link.alt} />
                         </a>
                     ))}
                 </div>

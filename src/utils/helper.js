@@ -60,28 +60,24 @@ export const SERVICES_DATA = [
 
 export const UPCOMING_DATA = [
     {
-        id: 1,
         image: './assets/images/png/nubbies.png',
         title: 'Nubbies',
         time: '15 : 54 : 12',
         category: 'NFT',
     },
     {
-        id: 2,
         image: './assets/images/png/nekozuma.png',
         title: 'Nekozuma',
         time: '15 : 54 : 12',
         category: 'NFT',
     },
     {
-        id: 3,
         image: './assets/images/png/galactium.png',
         title: 'Galactium',
         time: '15 : 54 : 12',
         category: 'NFT',
     },
     {
-        id: 4,
         image: './assets/images/png/frenz.png',
         title: 'Frenz Forever',
         time: '15 : 54 : 12',
@@ -161,6 +157,7 @@ export const PROJECTS_DATA = [
         title: 'Nubbies'
     },
 ];
+
 export const KARMIC_IMAGES = [
     { src: './assets/images/png/karmic-one.png', alt: 'one' },
     { src: './assets/images/png/karmic-two.png', alt: 'two' },
@@ -170,22 +167,22 @@ export const KARMIC_IMAGES = [
 export const SOCIAL_LINKS = [
     {
         link: 'https://www.instagram.com/',
-        src: './assets/images/svg/instagram.svg',
+        image: './assets/images/svg/instagram.svg',
         alt: 'instagram',
     },
     {
         link: 'https://x.com/?lang=en&mx=2',
-        src: './assets/images/svg/twitter.svg',
+        image: './assets/images/svg/twitter.svg',
         alt: 'twitter',
     },
     {
         link: 'https://www.facebook.com',
-        src: './assets/images/svg/facebook.svg',
+        image: './assets/images/svg/facebook.svg',
         alt: 'facebook',
     },
     {
         link: 'https://www.youtube.com/',
-        src: './assets/images/svg/youtube.svg',
+        image: './assets/images/svg/youtube.svg',
         alt: 'youtube',
     },
 ];
