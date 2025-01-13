@@ -86,10 +86,10 @@ export const UPCOMING_DATA = [
 ];
 
 export const NAV_DATA_LINK = [
-    { data: 'Home', link: '#home' },
-    { data: 'Services', link: '#services' },
-    { data: 'Projects', link: '#projects' },
-    { data: 'About', link: '#about' },
+    { title: 'Home', link: '#home' },
+    { title: 'Services', link: '#services' },
+    { title: 'Projects', link: '#projects' },
+    { title: 'About', link: '#about' },
 ];
 
 export const VALUES_DATA = [
