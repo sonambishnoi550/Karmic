@@ -41,7 +41,7 @@ const Header = () => {
                             {NAV_DATA_LINK.map((obj, index) => (
                                 <a onClick={toggleMenu} key={index}
                                     className="font-normal !hover:font-bold hover:scale-110 font-sunflower transition-all duration-500 text-base leading-5 text-white"
-                                    href={obj.href}> {obj.data}
+                                    href={obj.link}> {obj.data}
                                 </a>
                             ))}
                         </div>
@@ -69,7 +69,7 @@ const Header = () => {
                                 {NAV_DATA_LINK.map((obj, index) => (
                                     <a onClick={toggleMenu} key={index}
                                         className="font-normal hover:font-bold transition-all duration-500 font-sunflower text-base leading-5 text-white"
-                                        href={obj.href}> {obj.data} </a>
+                                        href={obj.link}> {obj.data} </a>
                                 ))}
                             </div>
                         </div>
